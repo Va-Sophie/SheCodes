@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5ac33e7c16.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <h1>Berlin</h1>
+      <ul class="grad">
+        <li class="lione"><i class="fa-solid fa-cloud-sun-rain"></i></li>
+        <li class="lione" id="title-temperature"><span id="number0">24</span><span id="grad"><span>°C</span>
+          <!-- <a href="" id="link1">°C </a> -->
+        <!-- </span><span id="farenheit">/<a href="" id="link2"> °F</a></span></li> -->
+        <li class="lione">
+          <div class="one">
+            <div class="line1"></div>
+            <hr class="line2" />
+          </div>
+        </li>
+      </ul>
+      <div class="title-weather">
+        <h2 class="main2">mostly cloudy</h2>
+        <!-- <h3 class="main3" id="data">13°C / 26°C</h3> -->
+        <button id="current">Location temperature</button>
+      </div>
+      <ul class="condition">
+        <li><h4>UV index:</h4></li>
+        <li><h5>3 out of 10</h5></li>
+      </ul>
+      <ul class="condition2">
+        <li><h4>Precipitation:</h4></li>
+        <li><h5>0mm (40%)</h5></li>
+      </ul>
+      <ul class="condition3">
+        <h4>Wind speed:</h4>
+        <li><h5>12.6 km/h (nw)</h5></li>
+      </ul>
+      <ul class="condition4">
+        <h4>Visibility:</h4>
+        <li><h5>16 km</h5></li>
+      </ul>
+      <div class="container">
+        <div class="frames">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <h5>Saturday, <br />18.06</h5>
+                    </li>
+                    <li>
+                      <h6><i class="fa-solid fa-cloud-showers-heavy"></i></h6>
+                    </li>
+                    <li><h5 class="footer">11°C / 24°C</h5></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <h5>Sunday, <br />19.06</h5>
+                    </li>
+                    <li>
+                      <h6><i class="fa-solid fa-cloud-sun"></i></h6>
+                    </li>
+                    <li><h5 class="footer">16°C / 27°C</h5></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <h5>Monday, <br />20.06</h5>
+                    </li>
+                    <li>
+                      <h6><i class="fa-solid fa-cloud"></i></h6>
+                    </li>
+                    <li><h5 class="footer">15°C / 26°C</h5></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <h5>Tuesday, <br />21.06</h5>
+                    </li>
+                    <li>
+                      <h6><i class="fa-solid fa-sun"></i></h6>
+                    </li>
+                    <li><h5 class="footer">20°C / 34°C</h5></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <h5>Wednesday, <br />22.06</h5>
+                    </li>
+                    <li>
+                      <h6><i class="fa-solid fa-cloud-bolt"></i></h6>
+                    </li>
+                    <li><h5 class="footer">9°C / 22°C</h5></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frames" id="second">
+          <form>
+            <div class="form-group">
+               <div class="input-group mb-3">
+                <input
+                   class="form-control"
+                   type="text"
+                   placeholder="Enter a new location"
+                   aria-describedby="button-addon2"
+                   id="form"
+                   required
+                 />
+               <button class="btn btn-secondary" type="button" id="button-addon2">Search</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      </div>
+      </div>
+    </div>
+    <script src="src/searchEngine.js"></script>
+  </body>
+</html>

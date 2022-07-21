@@ -1,0 +1,142 @@
+.background {
+  background: #dddddd;
+  border-radius: 10px;
+  width: 70%;
+  padding: 30px 60px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: #28385e;
+}
+h2.main2 {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 100px;
+  color: #304163;
+}
+h3.main3 {
+  font-weight: bolder;
+  color: #28385e;
+}
+h4 {
+  font-weight: bolder;
+  color: #28385e;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+ul.grad {
+  display: flex;
+}
+li {
+  color: #516c8d;
+}
+a {
+  text-decoration: none;
+}
+#grad,
+#farenheit {
+  font-size: 50px;
+  position: relative;
+  bottom: 35px;
+}
+li.lione {
+  margin-top: 10px;
+  font-size: 100px;
+  color: #516c8d;
+  font-weight: bolder;
+}
+ul.condition {
+  position: absolute;
+  right: 510px;
+  top: 115px;
+}
+ul.condition2 {
+  position: absolute;
+  right: 300px;
+  top: 115px;
+}
+ul.condition3 {
+  position: absolute;
+  right: 310px;
+  top: 250px;
+}
+ul.condition4 {
+  position: absolute;
+  right: 510px;
+  top: 250px;
+}
+#title-temperature {
+  margin-left: 50px;
+}
+.line1 {
+  border-left: 6px solid #28385e;
+  width: 6px;
+  border-radius: 10px;
+  height: 270px;
+  position: absolute;
+  right: 460px;
+  top: 100px;
+}
+.line2 {
+  background-color: rgb(15%, 22%, 37%);
+  opacity: 1;
+  border-style: none;
+  width: 330px;
+  height: 6px;
+  border-radius: 10px;
+  position: absolute;
+  right: 295px;
+  top: 215px;
+}
+.frames {
+  background: #304163;
+  border-radius: 10px;
+  width: 100%;
+  padding: 30px 20px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+}
+#second {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+.card {
+  background: #dddddd;
+  border-style: none;
+}
+h6 {
+  font-size: 50px;
+  text-align: center;
+  color: #28385e;
+}
+.footer {
+  text-align: center;
+  font-size: 17px;
+}
+.input-group-text {
+  background: #6c757d;
+}
+#current {
+  background-color: #304163;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  margin: 20px 12px 20px;
+  line-height: 25px;
+  padding: 16px 24px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+#current:hover {
+  color: #dddddd;
+  cursor: pointer;
+  background-color: #516c8d;
+}
